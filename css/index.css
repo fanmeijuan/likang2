@@ -1,0 +1,375 @@
+*{
+    margin:0;
+    padding:0;
+}
+.top{
+    height: 150px;
+    width: 100%;
+    background-color: #E8FBDB;
+    padding-top:15px;
+
+}
+.logo{
+    height: 106px;
+    background: url(../images/logo.png) no-repeat;
+    text-indent:-2000em;
+    position: relative;
+
+}
+.logo>h1{
+    height: 100%;
+    margin:0;
+}
+.logo>h1>a{
+    display: block;
+    height: 100%;
+}
+.con{
+    width:80%;
+    margin: 0 auto;
+
+}
+.top .row>.tel img{
+    width: 100%;
+    height: 100%;
+}
+.tel{
+    position: absolute;
+    top:0;
+    left:35%;
+}
+
+/*大于等于992时 颜色为天蓝色*/
+/*@media screen and (max-width: 1200px) {*/
+    /*.top{*/
+        /*height: 150px;*/
+    /*}*/
+
+/*}*/
+
+
+/*导航栏*/
+.navbar-brand img{
+    position: absolute;
+
+}
+.navbar-default{
+    background-color: white;
+    border-color:white;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+    background-color: #84C753;
+    background: url(../images/cbl.png) no-repeat 0 4px;
+
+}
+.navbar-default .navbar-nav>li>a{
+    font-family: "Microsoft YaHei" ;
+
+}
+.nav li{
+    width: 125px;
+    text-align: center;
+
+}
+.navbar{
+    margin: 0;
+
+}
+.navbar-default .navbar-nav>li>a{
+    font-family: KaiTi;
+    font-size: 18px;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+    background-color: transparent;
+
+
+}
+/*理疗方法*/
+.line{
+    height: 1px;
+    width: 100%;
+    background-color: #84C754;
+}
+.thumbnail{
+    border: 0;
+}
+
+.lltitle a{
+    display: block;
+    height: 92px;
+    width: 30%;
+    margin: 0 auto;
+}
+.lltitle a img{
+    width: 100%;
+    height: 100%;
+}
+ .lltitle{
+    padding-top:10px;
+    padding-bottom:20px;
+}
+.liliao .row{
+    margin: 0;
+}
+/*专家团队*/
+.team{
+    width: 100%;
+    height:745px;
+    background-color: #E8FBDB;
+}
+.team .thumbnail{
+    background-color: transparent;
+}
+
+.team .row{
+    margin: 0;
+
+}
+.team-top{
+    padding:25px 0;
+    font-size: 18px;
+    padding-right: 15px;
+}
+.team-top p{
+    padding-top: 20px;
+    font-family:KaiTi;
+
+}
+.team-bottom .thumbnail img{
+    border-radius: 50%;
+    border:3px solid white;
+}
+
+/*宗旨栏*/
+.tenet{
+    width: 100%;
+
+}
+.tenet img{
+    width: 100%;
+    height: 100%;
+}
+
+/*资质栏*/
+.aptitude-img{
+    position: relative;
+}
+.aptitude-img  a{
+    display: block;
+
+}
+.apti-img-bot img{
+
+    height: 100%;
+    width: 80%;
+}
+.apti-img-bot{
+    position: absolute;
+    left:25px;
+    top:51px;
+}
+/*常见问题*/
+.problem-border img{
+    border-radius: 50%;
+    border: 3px solid #65BA29;
+
+
+}
+/*健康咨询*/
+.talk-border .thumbnail img{
+    border: 2px solid #84C754;
+}
+.talk-border .thumbnail .caption{
+    background-color: #E8FBDB;
+    font-family: KaiTi;
+}
+.talk-border .thumbnail h4 img{
+    border: 0;
+}
+/*简介*/
+/*.intro-bottom{
+    position: relative;
+}
+.m{
+    position: absolute;
+    left:0;
+    top:0;
+}*/
+.intro-bottom  a{
+    display: block;
+    height: 437px;
+}
+.intro-bottom  a img{
+    width: 100%;
+    height: 100%;
+}
+/*底部栏*/
+.bottom {
+    width: 100%;
+    background-color: #E0F9D1;
+    padding-top: 25px;
+    font-size: 10px;
+    position: relative;
+}
+.bottom .long{
+    width: 1px;
+    height: 80px;
+    background-color: gray;
+}
+.banquan{
+    position: absolute;
+    left: 16px;
+    top:116px;
+}
+/*二级导航*/
+.nav-two-img{
+    padding:20px;
+}
+.nav-two-img a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.nav-two-img a{
+    height: 55px;
+    width: 200px;
+    background: url(../images/yangshi_002.png) no-repeat;
+    line-height: 55px;
+    font-size: 20px;
+    font-family: KaiTi;
+    color:black;
+
+}
+.nav-two-img1 a{
+    height: 55px;
+    width: 200px;
+    background: url(../images/yangshi_002.png) no-repeat;
+    line-height: 55px;
+    font-size: 20px;
+    font-family: KaiTi;
+    color:black;
+}
+/*适配移动端*/
+@media screen and (min-width: 768px) {
+    .top{
+        height: 130px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .top{
+        height: 106px;
+    }
+
+}
+@media screen and (max-width:768px) {
+    .top{
+        height:70px;
+        padding:0;
+
+    }
+    .con{
+        width:100%;
+        margin: 0 auto;
+
+    }
+    .tel{
+        top:2%;
+        left:22%;
+
+    }
+
+    .navbar .navbar-header{
+        position: relative;
+
+    }
+    .navbar .navbar-brand{
+        position: absolute;
+        left:20%;
+    }
+    .navbar .navbar-brand{
+        width: 45px;
+        height: 48px;
+        background:url(../images/slogo.png) no-repeat;
+
+    }
+    .lltitle a{
+        height: 50px;
+        width: 30%;
+    }
+    .team-top .media-left a{
+        display: block;
+        height:200px;
+        width: 200px;
+    }
+    .team-top .media-left a img{
+        width: 100%;
+        height: 100%;
+    }
+    .team-top .media-body p{
+        text-overflow: ellipsis;
+        height: 180px;
+
+    }
+    .team-top .media-body h4{
+        width: 100px;
+        height: 30px;
+    }
+    .team-top .media-body h4 img{
+        width: 100%;
+        height:100%;
+    }
+    .aptitude .row{
+        margin: 0;
+    }
+    .tenet .row{
+        margin: 0;
+    }
+    .row{
+        margin: 0;
+    }
+    /*.intro-bottom  a{*/
+    /*display: block;*/
+    /*height: 200px;*/
+    /*width: 200px;*/
+    /*}*/
+    /*.intro-bottom  a img{*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*}*/
+    .bottom-width{
+        width: 150px;
+        font-size: 10px;
+
+    }
+    .team{
+        height: 680px;
+    }
+    .footer-position{
+        position: relative;
+
+    }
+.gongshang{
+    position: absolute;
+    left:74px;
+    top:-5px;
+}
+/*轮播图*/
+    .carousel-inner .item {
+      height:178px;
+        width: 100%;
+
+    }
+    .carousel-inner .item img{
+        width: 100%;
+        height: 100%;
+    }
+    .nav li{
+        width: 100%;
+        text-align: left;
+    }
+}
